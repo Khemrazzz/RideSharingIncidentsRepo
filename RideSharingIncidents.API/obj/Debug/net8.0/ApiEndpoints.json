@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "RideSharingIncidents.API.Controllers.IncidentsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Incidents",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RideSharingIncidents.API.Controllers.IncidentsController",
+    "Method": "Create",
+    "RelativePath": "api/Incidents",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "incidents",
+        "Type": "RideSharingIncidents.Common.Model.Incidents",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RideSharingIncidents.API.Controllers.IncidentsController",
+    "Method": "GetById",
+    "RelativePath": "api/Incidents/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RideSharingIncidents.API.Controllers.IncidentsController",
+    "Method": "Update",
+    "RelativePath": "api/Incidents/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "incidents",
+        "Type": "RideSharingIncidents.Common.Model.Incidents",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RideSharingIncidents.API.Controllers.IncidentsController",
+    "Method": "Delete",
+    "RelativePath": "api/Incidents/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "RideSharingIncidents.API\\RideSharingIncidents.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "RideSharingIncidents.Console\\RideSharingIncidents.Console.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
