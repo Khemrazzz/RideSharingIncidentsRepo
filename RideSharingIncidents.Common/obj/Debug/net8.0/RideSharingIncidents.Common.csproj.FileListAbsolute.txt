@@ -1,0 +1,12 @@
+C:\Users\sarve\Documents\RideSharingIncidents\RideSharingIncidents.Common\bin\Debug\net8.0\RideSharingIncidents.Common.deps.json
+C:\Users\sarve\Documents\RideSharingIncidents\RideSharingIncidents.Common\bin\Debug\net8.0\RideSharingIncidents.Common.dll
+C:\Users\sarve\Documents\RideSharingIncidents\RideSharingIncidents.Common\bin\Debug\net8.0\RideSharingIncidents.Common.pdb
+C:\Users\sarve\Documents\RideSharingIncidents\RideSharingIncidents.Common\obj\Debug\net8.0\RideSharingIncidents.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sarve\Documents\RideSharingIncidents\RideSharingIncidents.Common\obj\Debug\net8.0\RideSharingIncidents.Common.AssemblyInfoInputs.cache
+C:\Users\sarve\Documents\RideSharingIncidents\RideSharingIncidents.Common\obj\Debug\net8.0\RideSharingIncidents.Common.AssemblyInfo.cs
+C:\Users\sarve\Documents\RideSharingIncidents\RideSharingIncidents.Common\obj\Debug\net8.0\RideSharingIncidents.Common.csproj.CoreCompileInputs.cache
+C:\Users\sarve\Documents\RideSharingIncidents\RideSharingIncidents.Common\obj\Debug\net8.0\RideSharingIncidents.Common.sourcelink.json
+C:\Users\sarve\Documents\RideSharingIncidents\RideSharingIncidents.Common\obj\Debug\net8.0\RideSharingIncidents.Common.dll
+C:\Users\sarve\Documents\RideSharingIncidents\RideSharingIncidents.Common\obj\Debug\net8.0\refint\RideSharingIncidents.Common.dll
+C:\Users\sarve\Documents\RideSharingIncidents\RideSharingIncidents.Common\obj\Debug\net8.0\RideSharingIncidents.Common.pdb
+C:\Users\sarve\Documents\RideSharingIncidents\RideSharingIncidents.Common\obj\Debug\net8.0\ref\RideSharingIncidents.Common.dll

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sarve\\source\\repos\\RideSharingIncidents.API\\RideSharingIncidents.Common\\RideSharingIncidents.Common.csproj",
+      "projectUniqueName": "C:\\Users\\sarve\\Documents\\RideSharingIncidents\\RideSharingIncidents.Common\\RideSharingIncidents.Common.csproj",
       "projectName": "RideSharingIncidents.Common",
-      "projectPath": "C:\\Users\\sarve\\source\\repos\\RideSharingIncidents.API\\RideSharingIncidents.Common\\RideSharingIncidents.Common.csproj",
+      "projectPath": "C:\\Users\\sarve\\Documents\\RideSharingIncidents\\RideSharingIncidents.Common\\RideSharingIncidents.Common.csproj",
       "packagesPath": "C:\\Users\\sarve\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sarve\\source\\repos\\RideSharingIncidents.API\\RideSharingIncidents.Common\\obj\\",
+      "outputPath": "C:\\Users\\sarve\\Documents\\RideSharingIncidents\\RideSharingIncidents.Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
