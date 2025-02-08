@@ -1,7 +1,40 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\sarve\\Documents\\RideSharingIncidents\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C62ED5F7-01EF-4810-8FAD-6A1711281D40}|RideSharingIncidents.Database\\RideSharingIncidents.Database.csproj|c:\\users\\sarve\\documents\\ridesharingincidents\\ridesharingincidents.database\\repositories\\incidentsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C62ED5F7-01EF-4810-8FAD-6A1711281D40}|RideSharingIncidents.Database\\RideSharingIncidents.Database.csproj|solutionrelative:ridesharingincidents.database\\repositories\\incidentsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E83125-165B-4B2E-896E-406E6004D2FA}|RideSharingIncidents.Common\\RideSharingIncidents.Common.csproj|c:\\users\\sarve\\documents\\ridesharingincidents\\ridesharingincidents.common\\model\\incidents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E83125-165B-4B2E-896E-406E6004D2FA}|RideSharingIncidents.Common\\RideSharingIncidents.Common.csproj|solutionrelative:ridesharingincidents.common\\model\\incidents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{744EE9B6-C6CB-4AB8-9E09-7273AFDB5EB8}|RideSharingIncidents.API\\RideSharingIncidents.API.csproj|c:\\users\\sarve\\documents\\ridesharingincidents\\ridesharingincidents.api\\controllers\\incidentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{744EE9B6-C6CB-4AB8-9E09-7273AFDB5EB8}|RideSharingIncidents.API\\RideSharingIncidents.API.csproj|solutionrelative:ridesharingincidents.api\\controllers\\incidentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FDF33B4-C87F-4343-B16D-8B3D6DB6FD58}|RideSharingIncidents.Console\\RideSharingIncidents.Console.csproj|c:\\users\\sarve\\documents\\ridesharingincidents\\ridesharingincidents.console\\incidentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FDF33B4-C87F-4343-B16D-8B3D6DB6FD58}|RideSharingIncidents.Console\\RideSharingIncidents.Console.csproj|solutionrelative:ridesharingincidents.console\\incidentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C62ED5F7-01EF-4810-8FAD-6A1711281D40}|RideSharingIncidents.Database\\RideSharingIncidents.Database.csproj|c:\\users\\sarve\\documents\\ridesharingincidents\\ridesharingincidents.database\\incidentsdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C62ED5F7-01EF-4810-8FAD-6A1711281D40}|RideSharingIncidents.Database\\RideSharingIncidents.Database.csproj|solutionrelative:ridesharingincidents.database\\incidentsdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C62ED5F7-01EF-4810-8FAD-6A1711281D40}|RideSharingIncidents.Database\\RideSharingIncidents.Database.csproj|c:\\users\\sarve\\documents\\ridesharingincidents\\ridesharingincidents.database\\incidentsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C62ED5F7-01EF-4810-8FAD-6A1711281D40}|RideSharingIncidents.Database\\RideSharingIncidents.Database.csproj|solutionrelative:ridesharingincidents.database\\incidentsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FDF33B4-C87F-4343-B16D-8B3D6DB6FD58}|RideSharingIncidents.Console\\RideSharingIncidents.Console.csproj|c:\\users\\sarve\\documents\\ridesharingincidents\\ridesharingincidents.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FDF33B4-C87F-4343-B16D-8B3D6DB6FD58}|RideSharingIncidents.Console\\RideSharingIncidents.Console.csproj|solutionrelative:ridesharingincidents.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{744EE9B6-C6CB-4AB8-9E09-7273AFDB5EB8}|RideSharingIncidents.API\\RideSharingIncidents.API.csproj|c:\\users\\sarve\\documents\\ridesharingincidents\\ridesharingincidents.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{744EE9B6-C6CB-4AB8-9E09-7273AFDB5EB8}|RideSharingIncidents.API\\RideSharingIncidents.API.csproj|solutionrelative:ridesharingincidents.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +42,114 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IncidentsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sarve\\Documents\\RideSharingIncidents\\RideSharingIncidents.Database\\Repositories\\IncidentsRepository.cs",
+              "RelativeDocumentMoniker": "RideSharingIncidents.Database\\Repositories\\IncidentsRepository.cs",
+              "ToolTip": "C:\\Users\\sarve\\Documents\\RideSharingIncidents\\RideSharingIncidents.Database\\Repositories\\IncidentsRepository.cs",
+              "RelativeToolTip": "RideSharingIncidents.Database\\Repositories\\IncidentsRepository.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T13:25:53.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IncidentsDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\sarve\\Documents\\RideSharingIncidents\\RideSharingIncidents.Database\\IncidentsDbContextFactory.cs",
+              "RelativeDocumentMoniker": "RideSharingIncidents.Database\\IncidentsDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\sarve\\Documents\\RideSharingIncidents\\RideSharingIncidents.Database\\IncidentsDbContextFactory.cs",
+              "RelativeToolTip": "RideSharingIncidents.Database\\IncidentsDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T13:25:46.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IncidentsDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\sarve\\Documents\\RideSharingIncidents\\RideSharingIncidents.Database\\IncidentsDbContext.cs",
+              "RelativeDocumentMoniker": "RideSharingIncidents.Database\\IncidentsDbContext.cs",
+              "ToolTip": "C:\\Users\\sarve\\Documents\\RideSharingIncidents\\RideSharingIncidents.Database\\IncidentsDbContext.cs",
+              "RelativeToolTip": "RideSharingIncidents.Database\\IncidentsDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T13:25:37.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Incidents.cs",
+              "DocumentMoniker": "C:\\Users\\sarve\\Documents\\RideSharingIncidents\\RideSharingIncidents.Common\\Model\\Incidents.cs",
+              "RelativeDocumentMoniker": "RideSharingIncidents.Common\\Model\\Incidents.cs",
+              "ToolTip": "C:\\Users\\sarve\\Documents\\RideSharingIncidents\\RideSharingIncidents.Common\\Model\\Incidents.cs",
+              "RelativeToolTip": "RideSharingIncidents.Common\\Model\\Incidents.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T13:24:07.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IncidentsService.cs",
+              "DocumentMoniker": "C:\\Users\\sarve\\Documents\\RideSharingIncidents\\RideSharingIncidents.Console\\IncidentsService.cs",
+              "RelativeDocumentMoniker": "RideSharingIncidents.Console\\IncidentsService.cs",
+              "ToolTip": "C:\\Users\\sarve\\Documents\\RideSharingIncidents\\RideSharingIncidents.Console\\IncidentsService.cs",
+              "RelativeToolTip": "RideSharingIncidents.Console\\IncidentsService.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAA9wCcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T11:17:48.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IncidentsController.cs",
+              "DocumentMoniker": "C:\\Users\\sarve\\Documents\\RideSharingIncidents\\RideSharingIncidents.API\\Controllers\\IncidentsController.cs",
+              "RelativeDocumentMoniker": "RideSharingIncidents.API\\Controllers\\IncidentsController.cs",
+              "ToolTip": "C:\\Users\\sarve\\Documents\\RideSharingIncidents\\RideSharingIncidents.API\\Controllers\\IncidentsController.cs",
+              "RelativeToolTip": "RideSharingIncidents.API\\Controllers\\IncidentsController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAUwCsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T09:41:14.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sarve\\Documents\\RideSharingIncidents\\RideSharingIncidents.Console\\Program.cs",
+              "RelativeDocumentMoniker": "RideSharingIncidents.Console\\Program.cs",
+              "ToolTip": "C:\\Users\\sarve\\Documents\\RideSharingIncidents\\RideSharingIncidents.Console\\Program.cs",
+              "RelativeToolTip": "RideSharingIncidents.Console\\Program.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAADwv1IAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T22:45:17.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sarve\\Documents\\RideSharingIncidents\\RideSharingIncidents.API\\Program.cs",
+              "RelativeDocumentMoniker": "RideSharingIncidents.API\\Program.cs",
+              "ToolTip": "C:\\Users\\sarve\\Documents\\RideSharingIncidents\\RideSharingIncidents.API\\Program.cs",
+              "RelativeToolTip": "RideSharingIncidents.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T22:45:13.151Z"
             }
           ]
         }

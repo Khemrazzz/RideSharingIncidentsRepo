@@ -40,6 +40,7 @@ namespace RideSharingIncidents.Database.Repositories
         public async Task UpdateAsync(Incidents Incidents)
         {
             _context.Entry(Incidents).State = EntityState.Modified;
+            _context.Entry(Incidents).Property(x => x.CreatedOn).IsModified = false;
             await _context.SaveChangesAsync();
         }
 
