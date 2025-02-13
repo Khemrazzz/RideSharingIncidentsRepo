@@ -46,7 +46,14 @@ const Incidents = () => {
             setIncidents(data);
         } catch (error) {
             console.error('Error fetching incidents:', error);
-            Swal.fire('Error', 'Could not fetch incidents', 'error');
+            Swal.fire({
+                icon: 'error',
+                title: 'Error',
+                text: 'Could not fetch incidents',
+                confirmButtonText: 'OK',
+                confirmButtonColor: '#3085d6',
+                allowOutsideClick: false
+            });
         }
     };
 
@@ -88,7 +95,7 @@ const Incidents = () => {
     const handleDateChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         setIncidentForm((prev) => ({
             ...prev,
-            incidentDate: e.target.value, // Store the selected date
+            incidentDate: e.target.value, // Only the date part, no time
         }));
     };
 
@@ -112,11 +119,27 @@ const Incidents = () => {
     
                 if (!response.ok) throw new Error("Failed to delete incident");
     
-                Swal.fire("Deleted!", "Incident has been deleted.", "success");
+                // Swal.fire("Deleted!", "Incident has been deleted.", "success");
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Deleted',
+                    text: 'Incident has been deleted.',
+                    confirmButtonText: 'OK',
+                    confirmButtonColor: '#3085d6',
+                    allowOutsideClick: false
+                });
                 fetchIncidents(); // Refresh the list after deletion
             } catch (error) {
                 console.error("Error deleting incident:", error);
-                Swal.fire("Error", "Could not delete incident", "error");
+                // Swal.fire("Error", "Could not delete incident", "error");
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Error',
+                    text: 'Could not delete incident',
+                    confirmButtonText: 'OK',
+                    confirmButtonColor: '#3085d6',
+                    allowOutsideClick: false
+                });
             }
         }
     };
@@ -132,6 +155,7 @@ const Incidents = () => {
             passengerName: "",
             description: "",
         });
+        setSelectedIncident(null);
     };
 
     const editIncident = (incident: Incident) => {
@@ -172,7 +196,15 @@ const Incidents = () => {
     
             if (!response.ok) throw new Error("Failed to save incident");
     
-            Swal.fire("Success", `Incident ${isUpdate ? "updated" : "added"} successfully`, "success");
+            // Swal.fire("Success", `Incident ${isUpdate ? "updated" : "added"} successfully`, "success");
+            Swal.fire({
+                icon: 'success',
+                title: 'Success',
+                text: `Incident ${isUpdate ? "updated" : "added"} successfully`,
+                confirmButtonText: 'OK',
+                confirmButtonColor: '#3085d6',
+                allowOutsideClick: false
+            });
             setAddEditModal(false);
             setIncidentForm({ // Reset form fields
                 location: "",
@@ -348,7 +380,7 @@ const Incidents = () => {
                                 <DialogPanel className="panel border-0 p-0 rounded-lg overflow-hidden w-full max-w-lg text-black dark:text-white-dark">
                                     <button
                                         type="button"
-                                        onClick={() => setAddEditModal(false)}
+                                        onClick={closeAddEditModal}
                                         className="absolute top-4 ltr:right-4 rtl:left-4 text-gray-400 hover:text-gray-800 dark:hover:text-gray-600 outline-none"
                                     >
                                         <IconX />
@@ -377,12 +409,12 @@ const Incidents = () => {
     <div className="mb-5">
     <label htmlFor="incidentDate">Incident Date</label>
     <input
-    id="incidentDate"
-    type="datetime-local"
-    className="form-input"
-    value={incidentForm.incidentDate || ''}
-    onChange={handleDateChange}
-/>
+        id="incidentDate"
+        type="date"  // Change from datetime-local to date
+        className="form-input"
+        value={incidentForm.incidentDate ? incidentForm.incidentDate.split('T')[0] : ''} // Extract only the date part
+        onChange={handleDateChange}
+    />
 </div>
     <div className="mb-5">
         <label htmlFor="location">Location</label>
@@ -393,7 +425,7 @@ const Incidents = () => {
         <textarea id="description" rows={3} placeholder="Enter Description" className="form-textarea resize-none min-h-[100px]" value={incidentForm.description} onChange={handleInputChange}></textarea>
     </div>
     <div className="flex justify-end items-center mt-8">
-        <button type="button" className="btn btn-outline-danger" onClick={() => setAddEditModal(false)}>Cancel</button>
+        <button type="button" className="btn btn-outline-danger" onClick={closeAddEditModal}>Cancel</button>
         <button type="button" className="btn btn-primary ml-4" onClick={saveIncident}>
             {incidentForm.id ? 'Update' : 'Add'}
         </button>
